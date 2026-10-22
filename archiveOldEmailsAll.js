@@ -1,3 +1,4 @@
+// This code automatically archives any email older than 100 days
 function archiveOldEmailsAll() {
   const searchQuery = 'in:inbox older_than:100d';
   const batchSize = 100;
