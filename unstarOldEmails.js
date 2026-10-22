@@ -1,3 +1,4 @@
+// This code automatically removes a star from an email after 50 days
 function unstarOldEmails() {
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - 50);
