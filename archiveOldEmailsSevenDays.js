@@ -1,4 +1,5 @@
-function archiveOldEmailsSeven() {
+// This code automatically archives emails with the label "seven days" after being in the inbox for seven days
+function archiveOldEmailsSevenDays() {
   const searchQuery = 'in:inbox label:"seven days" older_than:7d';
   const batchSize = 100;
 
